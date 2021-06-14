@@ -1,5 +1,15 @@
 
-A quick brown <?php 
-echo"<b>fox</b>" 
-?> jumps over the lazy <?php 
-echo"<b>dog</b>"?>
+<html>
+<head>
+<title>1</title>
+</head>
+<body>
+A quick brown<b><?php
+$x = "fox";
+print $x ;
+?></b>jumps over the lazy <b><?php
+$y = "dog";
+print $y ;
+?></b>
+</body>
+</html>
